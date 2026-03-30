@@ -2,7 +2,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Navbar = () => {
   return (
-    <div className="bg-base-100 shadow-sm ">
+    <div className="bg-base-100 shadow-sm border-b border-zinc-200">
       <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
