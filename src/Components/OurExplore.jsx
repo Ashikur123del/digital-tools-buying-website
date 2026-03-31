@@ -23,7 +23,7 @@ const OurExplore = ({ carts, setCarts, cardDataPromise }) => {
       <input 
         type="radio" 
         name="my_tabs_1" 
-        className="tab w-40 rounded-full transition-all duration-300 checked:!bg-linear-to-r checked:from-[#4f39f6] checked:to-[#9514fa] checked:!text-white" 
+        className="tab w-40 rounded-full transition-all font-semibold duration-300 checked:!bg-linear-to-r checked:from-[#4f39f6] checked:to-[#9514fa] checked:!text-white" 
         aria-label="Products" 
         defaultChecked 
         onClick={() => setActiveTab("Products")} 
@@ -31,7 +31,7 @@ const OurExplore = ({ carts, setCarts, cardDataPromise }) => {
       <input 
         type="radio" 
         name="my_tabs_1" 
-        className="tab w-40 rounded-full transition-all duration-300 checked:!bg-linear-to-r checked:from-[#4f39f6] checked:to-[#9514fa] checked:!text-white" 
+        className="tab w-40 rounded-full transition-all duration-300 font-semibold checked:!bg-linear-to-r checked:from-[#4f39f6] checked:to-[#9514fa] checked:!text-white" 
         aria-label={`Cart (${carts.length})`} 
         onClick={() => setActiveTab('Cart')} 
       />
