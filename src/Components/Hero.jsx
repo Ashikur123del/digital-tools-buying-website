@@ -4,10 +4,10 @@ import heroImg from '../assets/banner.png';
 const Hero = () => {
     return (
         <section className='bg-base-100 overflow-hidden'>
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto py-4 md:py-12 px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-12 py-10 md:py-15">
                     
-                    <div className="space-y-8 flex-1 text-center md:text-left">
+                    <div className=" space-y-3 md:space-y-8 flex-1 text-center md:text-left">
                         <div className="bg-[#e1e7ff] px-4 py-1.5 rounded-full flex items-center gap-3 w-fit mx-auto md:mx-0 shadow-sm border border-indigo-100 transition-all hover:bg-[#d6ddff]">
                             <div className="h-3 w-3 rounded-full bg-orange-600 animate-pulse"></div> 
                             <p className="text-sm font-bold text-[#4f39f6]">New: AI-Powered Tools Available</p>

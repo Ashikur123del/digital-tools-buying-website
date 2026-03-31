@@ -7,6 +7,7 @@ import OurExplore from "./Components/OurExplore"
 import GetStarted from "./Components/GetStarted"
 import CartPricing from "./Components/CartPricing"
 import ReadyToStart from "./Components/ReadyToStart"
+import Footer from "./Components/Footer"
 
 
 const cardData = async () => {
@@ -30,6 +31,7 @@ const [carts, setCarts] = useState([])
       <GetStarted />
       <CartPricing />
       <ReadyToStart />
+      <Footer />
   
     </>
   )

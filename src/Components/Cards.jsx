@@ -27,7 +27,7 @@ const Cards = ({ card, carts, setCarts }) => {
 
   return (
     <div
-      className="relative bg-white p-8 rounded-2xl border border-zinc-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full group"
+      className="relative bg-white py-3 px-4  md:p-8 rounded-2xl border border-zinc-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col h-full group"
     >
       {card.tag && (
         <span
@@ -50,12 +50,12 @@ const Cards = ({ card, carts, setCarts }) => {
         {card.title}
       </h3>
       
-      <p className="text-zinc-500 text-sm leading-relaxed mb-6 flex-grow">
+      <p className="text-zinc-500 text-sm leading-relaxed mb-3 md:mb-6 flex-grow">
         {card.description}
       </p>
 
       {/* Pricing */}
-      <div className="flex items-baseline gap-1 mb-8">
+      <div className="flex items-baseline gap-1 mb-3 md:mb-8">
         <span className="text-3xl font-extrabold text-zinc-900">
           ${card.price}
         </span>

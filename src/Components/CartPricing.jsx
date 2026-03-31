@@ -33,10 +33,10 @@ const CartPricing = () => {
     ];
 
     return (
-        <section className="bg-base-100 py-20 px-4">
+        <section className="bg-base-100 py-7 md:py-20 px-4">
             <div className="max-w-7xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-black mb-4 tracking-tight">
+                <div className="text-center mb-8 md:mb-16">
+                    <h2 className="text-3xl md:text-5xl font-black mb-4 tracking-tight">
                         Simple, Transparent Pricing
                     </h2>
                     <p className="text-lg opacity-60">

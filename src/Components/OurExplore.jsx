@@ -8,7 +8,7 @@ const OurExplore = ({ carts, setCarts, cardDataPromise }) => {
     return (
  <div>
     <div className="mt-10">
-  <div className="text-center mb-12">
+  <div className="text-center mb-2 md:mb-12">
     <h2 className="text-3xl font-bold md:text-5xl mb-4 text-zinc-900">
       {activeTab === 'Products' ? "Explore Our Premium Tools" : "Your Shopping Cart"}
     </h2>
