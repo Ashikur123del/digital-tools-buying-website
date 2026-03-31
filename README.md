@@ -16,4 +16,6 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-
+1. I had a problem passing data from the child component to the parent component.
+2. The second issue I faced was regarding the delete functionality 
+3. The third problem was clearing all items from the cart upon clicking 'Proceed to Checkout' 
