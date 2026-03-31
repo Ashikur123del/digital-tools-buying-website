@@ -1,4 +1,5 @@
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = ({ carts }) => {
   return (
@@ -7,20 +8,7 @@ const Navbar = ({ carts }) => {
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+              <FaBars className="w-5 h-5 text-zinc-700" />
             </div>
             <ul
               tabIndex={0}
@@ -50,13 +38,11 @@ const Navbar = ({ carts }) => {
 
         <div className="navbar-end gap-2 md:gap-4">
           <div className="flex items-center gap-3 md:gap-5 mr-2">
-            {/* Shopping Cart with dynamic badge */}
             <div className="relative group cursor-pointer">
               <div className="bg-zinc-100 rounded-full p-2.5 transition-all duration-300 group-hover:bg-zinc-200">
                 <AiOutlineShoppingCart className="w-6 h-6 text-zinc-700" />
               </div>
               
-              {/* Badge - শুধুমাত্র আইটেম থাকলে দেখাবে */}
               {carts.length > 0 && (
                 <span className="absolute -top-1 -right-1 min-w-[20px] h-5 px-1 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white text-[11px] font-bold rounded-full flex items-center justify-center border-2 border-white shadow-sm animate-in zoom-in">
                   {carts.length}
